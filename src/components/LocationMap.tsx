@@ -16,6 +16,15 @@ export default function LocationMap() {
                     className="w-full h-full"
                 ></iframe>
             </div>
+
+            <a
+                href="https://maps.google.com/?q=Tacos+J%26R"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold px-4 py-3 rounded-xl transition shadow-lg"
+            >
+                Abrir en Google Maps
+            </a>
         </div>
     );
 }
