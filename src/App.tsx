@@ -3,6 +3,7 @@ import Schedule from "./components/Schedule";
 import OrderCallToAction from "./components/OrderCallToAction";
 import BusinessInfo from "./components/BusinessInfo";
 import LocationMap from "./components/LocationMap";
+import SocialFollow from "./components/SocialFollow";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
         <Menu />
         <Schedule />
         <BusinessInfo />
+        <SocialFollow />
         <LocationMap />
       </main>
 
