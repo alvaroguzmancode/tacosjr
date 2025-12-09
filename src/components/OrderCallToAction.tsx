@@ -5,7 +5,6 @@ export default function OrderCallToAction() {
     const shareText = encodeURIComponent("Ordena tus tacos favoritos en Tacos J&R a domicilio: ");
     const shareUrl = encodeURIComponent("https://tacosjr.com");
     const shareWaUrl = `https://wa.me/?text=${shareText}${shareUrl}`;
-    const phoneUrl = `tel:${contact.phone}`;
 
     return (
         <div className="bg-fireRed p-6 rounded-xl text-center shadow-lg">
@@ -22,12 +21,6 @@ export default function OrderCallToAction() {
                     className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-xl text-xl transition shadow-lg"
                 >
                     Pedir por WhatsApp
-                </a>
-                <a
-                    href={phoneUrl}
-                    className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-6 py-3 rounded-xl text-xl transition shadow-lg"
-                >
-                    Llama ya
                 </a>
                 <a
                     href={shareWaUrl}

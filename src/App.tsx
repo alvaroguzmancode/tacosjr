@@ -4,6 +4,7 @@ import OrderCallToAction from "./components/OrderCallToAction";
 import BusinessInfo from "./components/BusinessInfo";
 import LocationMap from "./components/LocationMap";
 import SocialFollow from "./components/SocialFollow";
+import FloatingCallButton from "./components/FloatingCallButton";
 
 export default function App() {
   return (
@@ -38,6 +39,8 @@ export default function App() {
       <footer className="text-center text-gray-400 py-10">
         © 2025 Tacos J&R
       </footer>
+
+      <FloatingCallButton />
     </div>
   );
 }
