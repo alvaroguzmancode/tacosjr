@@ -5,7 +5,7 @@ export default function OrderCallToAction() {
 
     return (
         <div className="bg-fireRed p-6 rounded-xl text-center shadow-lg">
-            <h2 className="text-3xl font-bold text-white">🔥 ¡Haz tu pedido ahora!</h2>
+            <h2 className="text-3xl font-bold text-white">🔥 ¡Haz tu pedido Tacos J&amp;R a domicilio!</h2>
             <p className="text-white mt-2 text-lg">
                 Rápido · Fácil · Entrega a domicilio
             </p>
@@ -19,7 +19,7 @@ export default function OrderCallToAction() {
             </a>
 
             <p className="text-white mt-4 opacity-90">
-                Tiempo estimado de entrega · <strong>20–30 min</strong>
+                Tiempo estimado de entrega Tacos J&amp;R · <strong>20–30 min</strong>
             </p>
         </div>
     );
