@@ -71,3 +71,9 @@ export default defineConfig([
   },
 ])
 ```
+
+## RUN
+
+```bash
+git pull && (npx pm2 delete tacosjr || true) && yarn build && npx pm2 start "serve -s dist -l 3002" --name tacosjr
+```
