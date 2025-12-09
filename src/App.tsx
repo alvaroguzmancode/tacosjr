@@ -12,6 +12,11 @@ export default function App() {
         <h1 className="text-5xl font-extrabold text-yellow-400">
           Tacos J&R
         </h1>
+        <img
+          src="/logowbg.png"
+          alt="Tacos J&R"
+          className="w-48 mx-auto drop-shadow-xl"
+        />
         <p className="mt-3 text-gray-300 text-lg">
           Sabor auténtico mexicano · Pedidos locales y a domicilio
         </p>
