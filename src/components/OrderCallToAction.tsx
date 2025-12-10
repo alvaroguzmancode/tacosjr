@@ -3,8 +3,8 @@ import whatsappIcon from "../assets/whatsapp.svg";
 
 export default function OrderCallToAction() {
     const waUrl = `https://wa.me/52${contact.whatsapp}?text=Hola,%20quiero%20apartar%20barbacoa%20y%20menudo%20para%20llevar%20este%20domingo`;
-    const shareText = encodeURIComponent("Comparte An Ténekchik: barbacoa y menudo los domingos desde las 7 a.m. Dirección: ");
-    const shareUrl = encodeURIComponent("https://maps.google.com/?q=25.792383239938864,-100.23556128684758");
+    const shareText = encodeURIComponent("An Ténekchik: barbacoa y menudo para llevar cada domingo. Conoce el menú y detalles aquí: ");
+    const shareUrl = encodeURIComponent("https://antenek.alradex.com");
     const shareWaUrl = `https://wa.me/?text=${shareText}${shareUrl}`;
 
     return (
