@@ -1,4 +1,5 @@
 import { contact } from "../services/contactService";
+import whatsappIcon from "../assets/whatsapp.svg";
 
 export default function OrderCallToAction() {
     const waUrl = `https://wa.me/52${contact.whatsapp}?text=Hola,%20quiero%20apartar%20barbacoa%20y%20menudo%20para%20llevar%20este%20domingo`;
@@ -18,9 +19,10 @@ export default function OrderCallToAction() {
                     href={waUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-block bg-white hover:bg-gray-100 text-black font-bold px-6 py-3 rounded-xl text-xl transition border border-black"
+                    className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-black font-bold px-6 py-3 rounded-xl text-xl transition border border-black"
                 >
-                    Pedir por WhatsApp
+                    <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6" />
+                    <span>Pedir por WhatsApp</span>
                 </a>
                 <a
                     href={shareWaUrl}

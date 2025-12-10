@@ -1,3 +1,6 @@
+import facebookIcon from "../assets/facebook.svg";
+import instagramIcon from "../assets/instagram.svg";
+
 const facebookUrl = "https://www.facebook.com/profile.php?id=100089537064613";
 const instagramUrl = "https://www.instagram.com/an_tenekchik";
 
@@ -20,7 +23,7 @@ export default function SocialFollow() {
           rel="noreferrer"
           className="inline-flex items-center gap-3 bg-white border border-black text-black hover:bg-gray-50 font-bold px-6 py-3 rounded-full transition shadow"
         >
-          <span aria-hidden="true">📘</span>
+          <img src={facebookIcon} alt="Facebook" className="w-6 h-6" />
           <span>Facebook oficial</span>
         </a>
         <a
@@ -29,7 +32,7 @@ export default function SocialFollow() {
           rel="noreferrer"
           className="inline-flex items-center gap-3 bg-black text-white hover:bg-gray-900 font-bold px-6 py-3 rounded-full transition shadow"
         >
-          <span aria-hidden="true">📸</span>
+          <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
           <span>Instagram @an_tenekchik</span>
         </a>
       </div>
