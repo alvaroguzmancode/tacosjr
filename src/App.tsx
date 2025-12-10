@@ -17,7 +17,7 @@ export default function App() {
         <img
           src="/logowbg.png"
           alt="An Ténekchik"
-          className="w-48 mx-auto drop-shadow-xl"
+          className="w-48 mx-auto drop-shadow-xl bg-black rounded-full p-4"
         />
         <p className="mt-3 text-gray-600 text-lg">
           Barbacoa y menudo tradicionales listos desde las 7:00 a. m. cada domingo en Ciudad Apodaca.
