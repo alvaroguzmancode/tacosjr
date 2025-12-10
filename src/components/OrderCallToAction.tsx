@@ -7,9 +7,9 @@ export default function OrderCallToAction() {
     const shareWaUrl = `https://wa.me/?text=${shareText}${shareUrl}`;
 
     return (
-        <div className="bg-fireRed p-6 rounded-xl text-center shadow-lg">
-            <h2 className="text-3xl font-bold text-white">🔥 Aparta tu barbacoa o menudo</h2>
-            <p className="text-white mt-2 text-lg">
+        <div className="bg-black p-6 rounded-2xl text-center shadow-2xl text-white">
+            <h2 className="text-3xl font-bold">🔥 Aparta tu barbacoa o menudo</h2>
+            <p className="mt-2 text-lg text-gray-100">
                 An Ténekchik abre domingos 7:00 a. m. · Solo pedidos para llevar
             </p>
 
@@ -18,7 +18,7 @@ export default function OrderCallToAction() {
                     href={waUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-xl text-xl transition shadow-lg"
+                    className="inline-block bg-white hover:bg-gray-100 text-black font-bold px-6 py-3 rounded-xl text-xl transition border border-black"
                 >
                     Pedir por WhatsApp
                 </a>
@@ -26,13 +26,13 @@ export default function OrderCallToAction() {
                     href={shareWaUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-block bg-gray-900 hover:bg-gray-700 text-white font-bold px-6 py-3 rounded-xl text-xl transition shadow-lg border border-white/20"
+                    className="inline-block bg-black hover:bg-gray-900 text-white font-bold px-6 py-3 rounded-xl text-xl transition border border-white/20"
                 >
                     Compartir ubicación/menú
                 </a>
             </div>
 
-            <p className="text-white mt-4 opacity-90">
+            <p className="text-gray-200 mt-4 opacity-90">
                 Barbacoa y menudo listos desde las 7:00 a. m. · <strong>Retira tu orden en el punto de venta</strong>
             </p>
         </div>

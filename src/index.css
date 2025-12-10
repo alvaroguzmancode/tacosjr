@@ -5,10 +5,9 @@
 /* Reset general minimalista */
 body {
   margin: 0;
-  background-color: #111827;
-  /* bg-gray-900 */
-  color: #ffffff;
-  font-family: system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
 }
 
 /* Opcional: suavizado */
