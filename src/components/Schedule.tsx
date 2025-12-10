@@ -36,11 +36,11 @@ export default function Schedule() {
                     </ul>
                 </div>
 
-                <div className="overflow-hidden rounded-2xl shadow-xl border border-gray-100">
+                <div className="overflow-hidden rounded-2xl shadow-xl border border-gray-100 bg-black p-6 flex items-center justify-center">
                     <img
                         src="/flyer.png"
                         alt="Flyer An Ténekchik barbacoa y menudo"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                     />
                 </div>
             </div>
