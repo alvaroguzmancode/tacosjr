@@ -3,10 +3,11 @@ import { schedule, isOpenNow } from "../services/scheduleService";
 export default function Schedule() {
     return (
         <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h2 className="text-3xl font-bold text-yellow-400 mb-4">Horario</h2>
+            <h2 className="text-3xl font-bold text-yellow-400 mb-4">Horario de barbacoa y menudo</h2>
 
             <p className="text-gray-300 mb-3">
-                Estos son los horarios en los que Tacos J&amp;R lleva pedidos a domicilio.
+                An Ténekchik abre temprano los domingos para servir barbacoa y menudo recién hechos; agenda tu pedido
+                y confirma disponibilidad.
             </p>
 
             <p className={`font-bold mb-4 ${isOpenNow() ? "text-green-400" : "text-red-400"}`}>

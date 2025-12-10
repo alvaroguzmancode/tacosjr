@@ -75,5 +75,19 @@ export default defineConfig([
 ## RUN
 
 ```bash
-git pull && (npx pm2 delete tacosjr || true) && yarn build && npx pm2 start "serve -s dist -l 3002" --name tacosjr
+git pull && (npx pm2 delete antenek || true) && yarn build && npx pm2 start "serve -s dist -l 3003" --name antenek
+```
+
+
+## information
+
+```
+An Ténekchik
+ Venta de Barbacoa y Menudo los domingos a partir de las 7 de la mañana.
+81 2584 6098
+ Senna 742, Residencial Los Ebanos Nte. 2o Sector, 66612 Cdad. Apodaca, N.L.
+ 25.792383239938864, -100.23556128684758
+ 
+Facebook https://www.facebook.com/profile.php?id=100089537064613
+Instagram https://www.instagram.com/an_tenekchik
 ```

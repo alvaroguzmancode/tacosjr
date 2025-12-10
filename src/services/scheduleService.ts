@@ -1,18 +1,19 @@
 import type { ScheduleDay } from "../domain/types";
 
 export const schedule: ScheduleDay[] = [
-    { day: "Lunes", open: "7:00 a. m.", close: "2:00 p. m." },
-    { day: "Martes", open: "7:00 a. m.", close: "2:00 p. m." },
-    { day: "Miércoles", open: "7:00 a. m.", close: "2:00 p. m." },
-    { day: "Jueves", open: "7:00 a. m.", close: "2:00 p. m." },
-    { day: "Viernes", open: "7:00 a. m.", close: "2:00 p. m." },
-    { day: "Sábado", open: "7:00 a. m.", close: "12:30 p. m." },
-    { day: "Domingo", open: null, close: null }
+    { day: "Lunes", open: null, close: null },
+    { day: "Martes", open: null, close: null },
+    { day: "Miércoles", open: null, close: null },
+    { day: "Jueves", open: null, close: null },
+    { day: "Viernes", open: null, close: null },
+    { day: "Sábado", open: null, close: null },
+    { day: "Domingo", open: "7:00 a. m.", close: "1:00 p. m." }
 ];
 
 export const isOpenNow = () => {
     const now = new Date();
-    const currentDay = schedule[now.getDay() - 1]; // Domingo=0
+    const currentDayIndex = (now.getDay() + 6) % 7; // Ajusta para que Domingo sea el último elemento
+    const currentDay = schedule[currentDayIndex];
     if (!currentDay || !currentDay.open) return false;
     return true; // Puedes mejorar verificando hora exacta
 };

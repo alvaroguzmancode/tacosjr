@@ -6,7 +6,7 @@ export interface ScheduleDay {
 
 export interface MenuItem {
   name: string;
-  tortilla: ("harina" | "maiz")[];
+  tortilla: string[];
 }
 
 export interface ContactInfo {

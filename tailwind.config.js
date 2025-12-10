@@ -4,13 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        tacoYellow: "#F4A625",
-        tacoRed: "#D64045",
+        // Brand identity
+        brandWhite: "#FFFFFF",
+        brandBlack: "#0C0C0C",
+        brandGray: "#3E3D40",
+
+        // Fire palette
         fireRed: "#E33E2B",
         fireOrange: "#F39A2E",
-        tacoBlack: "#0C0C0C",
-        tacoGray: "#3E3D40",
-        tacoGreen: "#4C6A3E",
+        fireYellow: "#F4A625",
+
+        // Natural accent
+        brandGreen: "#4C6A3E",
       },
     },
   },
